@@ -21,7 +21,7 @@ if (mail("matvey228yh8@mail.ru"
     "Имя: ".$name."\n".
     "Возраст: ".$ear."\n".
     "Телефон: ".$tel."\n".
-    "From: github@mail.ru" \r\n))
+    "From: github@mail.ru \r\n"))
 
     {
         echo ("Письмо успешно отправлено.")
