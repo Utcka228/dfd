@@ -16,11 +16,12 @@ $name = trim($name)
 $ear = trim($ear)
 $tel = trim($tel)
 
-if (mail)("matvey228yh8@mail.ru"
+if (mail("matvey228yh8@mail.ru"
     "Новое письмо с сайта Програмирование"
     "Имя: ".$name."\n".
     "Возраст: ".$ear."\n".
-    "Телефон: ".$tel."\n".)
+    "Телефон: ".$tel."\n".
+    "From: github@mail.ru" \r\n))
 
     {
         echo ("Письмо успешно отправлено.")
